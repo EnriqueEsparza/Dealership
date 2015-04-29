@@ -7,6 +7,10 @@ class Dealership
     @cars = []
   end
 
+  define_method(:add_vehicle) do |vehicle|
+    @cars.push(vehicle)
+  end
+
   define_method(:name) do
     @name
   end
